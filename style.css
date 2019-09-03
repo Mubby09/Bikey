@@ -365,7 +365,7 @@ margin-bottom: 2rem;
 @media (max-width:768px){
     #team1 .team1-content{
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2,1fr);
     }
 
     #footer .footer-content{
@@ -431,10 +431,6 @@ margin-bottom: 2rem;
         grid-row: 1 ;
     }
 
-    #team1 .team1-content{
-        display: grid;
-        grid-template-columns: 1fr;
-    }
 }
 
 @media(max-height: 600px){
